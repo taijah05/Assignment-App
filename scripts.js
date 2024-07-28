@@ -131,6 +131,51 @@ function modalityAndManufacture() {
             document.getElementById("primaryISE").innerHTML = "Josh";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
+        else if (modality == "petct" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Josh";
+        }
+        else if (modality == "petct" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "petct" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Josh";
+        }
+        else if (modality == "nucmed" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "nucmed" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "nucmed" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "injector" && manufacture !== "bayer") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "mammo" && manufacture !== "hologic") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon2" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon2" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "injector" && manufacture == "bayer") {
+            alert("Invalid Selection");
+        }
 
 }
 
@@ -226,6 +271,52 @@ function mah() {
             document.getElementById("primaryISE").innerHTML = "Josh";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
+        else if (modality == "petct" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Amir";
+        }
+        else if (modality == "petct" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "petct" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Amir";
+        }
+        else if (modality == "nucmed" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "nucmed" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "nucmed" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Amir";
+        }
+        else if (modality == "injector" && manufacture !== "bayer") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "mammo" && manufacture !== "hologic") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon2" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon2" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "injector" && manufacture == "bayer") {
+            alert("Invalid Selection");
+        }
+
 }
 
 function lahey() {
@@ -319,5 +410,50 @@ function lahey() {
         else if (modality == "trophon2" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Sohal";
             document.getElementById("secondaryISE").innerHTML = "Josh";
+        }
+        else if (modality == "petct" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "petct" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "petct" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
+        }
+        else if (modality == "nucmed" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "nucmed" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "nucmed" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
+        }
+        else if (modality == "injector" && manufacture !== "bayer") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "mammo" && manufacture !== "hologic") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon2" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon2" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "injector" && manufacture == "bayer") {
+            alert("Invalid Selection");
         }
 }
