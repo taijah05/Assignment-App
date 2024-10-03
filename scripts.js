@@ -17,6 +17,9 @@ function searchISE() {
         case "mount auburn" :
             mah();
             break;
+            case "nebh" :
+            modalityAndManufacture();
+            break;
         case "lahey" :
             lahey();
             break;
