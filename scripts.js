@@ -21,16 +21,16 @@ function searchISE() {
             lahey();
             break;
         case "lahey peabody" :
-            lahey();
+            winchester();
             break;
         case "lexington" :
             lahey();
             break;
         case "winchester" :
-            lahey();
+            winchester();
             break;
         case "unicorn park" :
-            lahey();
+            winchester();
             break;
         case "plymouth" :
             modalityAndManufacture();
@@ -45,27 +45,27 @@ function modalityAndManufacture() {
     
         if (modality == "ultrasound" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Mariam";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Hiram";
         }
         else if (modality == "ultrasound" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Mariam";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Hiram";
         }
         else if (modality == "ultrasound" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Mariam";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Hiram";
         }
         else if (modality == "xray" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Mariam";
-            document.getElementById("secondaryISE").innerHTML = "Sam";
+            document.getElementById("primaryISE").innerHTML = "Sam";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "xray" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Mariam";
-            document.getElementById("secondaryISE").innerHTML = "Sam";
+            document.getElementById("primaryISE").innerHTML = "Sam";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "xray" && manufacture == "siemens") {
-            document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Amir";
+            document.getElementById("primaryISE").innerHTML = "Amir";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "ct" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -80,12 +80,12 @@ function modalityAndManufacture() {
             document.getElementById("secondaryISE").innerHTML = "Amir";
         }
         else if (modality == "mr" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Sam";
-            document.getElementById("secondaryISE").innerHTML = "";
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "mr" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Hiram";
-            document.getElementById("secondaryISE").innerHTML = "";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "mr" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Hiram";
@@ -112,12 +112,12 @@ function modalityAndManufacture() {
             document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "carm" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Jerome";
+            document.getElementById("primaryISE").innerHTML = "Mariam";
             document.getElementById("secondaryISE").innerHTML = "Josh";
         }
         else if (modality == "carm" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Jerome";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
         }
         else if (modality == "carm" && manufacture == "hologic") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -125,7 +125,7 @@ function modalityAndManufacture() {
         }
         else if (modality == "trophon" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Sam";
-            document.getElementById("secondaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "trophon2" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -133,7 +133,7 @@ function modalityAndManufacture() {
         }
         else if (modality == "petct" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Amir";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "petct" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -184,28 +184,28 @@ function mah() {
     var manufacture = document.getElementById("manufactureChoice").value;
     
         if (modality == "ultrasound" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Jerome";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "ultrasound" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Jerome";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "ultrasound" && manufacture == "siemens") {
-            document.getElementById("primaryISE").innerHTML = "Jerome";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("primaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "xray" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "xray" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "xray" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "ct" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -220,19 +220,19 @@ function mah() {
             document.getElementById("secondaryISE").innerHTML = "Amir";
         }
         else if (modality == "mr" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Sam";
-            document.getElementById("secondaryISE").innerHTML = "";
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "mr" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Hiram";
-            document.getElementById("secondaryISE").innerHTML = "";
+            document.getElementById("secondaryISE").innerHTML = "Josh";
         }
         else if (modality == "mr" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Hiram";
             document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "cathlab" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Sam";
+            document.getElementById("primaryISE").innerHTML = "Josh";
             document.getElementById("secondaryISE").innerHTML = "Amir";
         }
         else if (modality == "cathlab" && manufacture == "philips") {
@@ -249,23 +249,23 @@ function mah() {
         }
         else if (modality == "mammo" && manufacture == "hologic") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "carm" && manufacture == "ge") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "carm" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
         }
         else if (modality == "carm" && manufacture == "hologic") {
             document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Jerome";
+            document.getElementById("secondaryISE").innerHTML = "Mariam";
         }
         else if (modality == "trophon" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Sam";
-            document.getElementById("secondaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Josh";
         }
         else if (modality == "trophon2" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Josh";
@@ -324,15 +324,15 @@ function lahey() {
     var manufacture = document.getElementById("manufactureChoice").value;
     
         if (modality == "ultrasound" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("primaryISE").innerHTML = "Jerome";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "ultrasound" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("primaryISE").innerHTML = "Jerome";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "ultrasound" && manufacture == "siemens") {
-            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("primaryISE").innerHTML = "Jerome";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "xray" && manufacture == "ge") {
@@ -340,28 +340,28 @@ function lahey() {
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "xray" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Stevenson";
-            document.getElementById("secondaryISE").innerHTML = "Patrick";
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
         }
         else if (modality == "xray" && manufacture == "siemens") {
             document.getElementById("primaryISE").innerHTML = "Patrick";
             document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "ct" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML ="Sam";
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML ="Sohal";
         }
         else if (modality == "ct" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Stevenson";
             document.getElementById("secondaryISE").innerHTML = "Amir";
         }
         else if (modality == "ct" && manufacture == "siemens") {
-            document.getElementById("primaryISE").innerHTML = "Josh";
-            document.getElementById("secondaryISE").innerHTML = "Amir";
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
         }
         else if (modality == "mr" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Sam";
-            document.getElementById("secondaryISE").innerHTML = "Sohal";
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
         }
         else if (modality == "mr" && manufacture == "philips") {
             document.getElementById("primaryISE").innerHTML = "Hiram";
@@ -385,23 +385,23 @@ function lahey() {
         }
         else if (modality == "injector" && manufacture == "bayer") {
             document.getElementById("primaryISE").innerHTML = "Sohal";
-            document.getElementById("secondaryISE").innerHTML = "Josh";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
         }
         else if (modality == "mammo" && manufacture == "hologic") {
-            document.getElementById("primaryISE").innerHTML = "Patrick";
-            document.getElementById("secondaryISE").innerHTML = "Sohal";
+            document.getElementById("primaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
         }
         else if (modality == "carm" && manufacture == "ge") {
-            document.getElementById("primaryISE").innerHTML = "Sohal";
-            document.getElementById("secondaryISE").innerHTML = "Patrick";
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "carm" && manufacture == "philips") {
-            document.getElementById("primaryISE").innerHTML = "Sohal";
-            document.getElementById("secondaryISE").innerHTML = "Stevenson";
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "carm" && manufacture == "hologic") {
-            document.getElementById("primaryISE").innerHTML = "Sohal";
-            document.getElementById("secondaryISE").innerHTML = "Patrick";
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
         }
         else if (modality == "trophon" && manufacture == "nanosonics") {
             document.getElementById("primaryISE").innerHTML = "Sohal";
@@ -457,3 +457,142 @@ function lahey() {
             alert("Invalid Selection");
         }
 }
+
+function winchester() {
+    var modality = document.getElementById("modalityChoice").value;
+    var manufacture = document.getElementById("manufactureChoice").value;
+    
+        if (modality == "ultrasound" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Jerome";
+        }
+        else if (modality == "ultrasound" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Jerome";
+        }
+        else if (modality == "ultrasound" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Jerome";
+        }
+        else if (modality == "xray" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "xray" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
+        }
+        else if (modality == "xray" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "ct" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML ="Sohal";
+        }
+        else if (modality == "ct" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Amir";
+        }
+        else if (modality == "ct" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
+        }
+        else if (modality == "mr" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "mr" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "mr" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Hiram";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "cathlab" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "cathlab" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
+        }
+        else if (modality == "cathlab" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Steven";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "injector" && manufacture == "bayer") {
+            document.getElementById("primaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
+        }
+        else if (modality == "mammo" && manufacture == "hologic") {
+            document.getElementById("primaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
+        }
+        else if (modality == "carm" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "carm" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "carm" && manufacture == "hologic") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "trophon" && manufacture == "nanosonics") {
+            document.getElementById("primaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Sam";
+        }
+        else if (modality == "trophon2" && manufacture == "nanosonics") {
+            document.getElementById("primaryISE").innerHTML = "Sohal";
+            document.getElementById("secondaryISE").innerHTML = "Josh";
+        }
+        else if (modality == "petct" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "petct" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "petct" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Patrick";
+        }
+        else if (modality == "nucmed" && manufacture == "ge") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "nucmed" && manufacture == "philips") {
+            document.getElementById("primaryISE").innerHTML = "Stevenson";
+            document.getElementById("secondaryISE").innerHTML = "Sohal";
+        }
+        else if (modality == "nucmed" && manufacture == "siemens") {
+            document.getElementById("primaryISE").innerHTML = "Patrick";
+            document.getElementById("secondaryISE").innerHTML = "Stevenson";
+        }
+        else if (modality == "injector" && manufacture !== "bayer") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "mammo" && manufacture !== "hologic") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality == "trophon2" && manufacture !== "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon2" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "trophon" && manufacture == "nanosonics") {
+            alert("Invalid Selection");
+        }
+        else if (modality !== "injector" && manufacture == "bayer") {
+            alert("Invalid Selection");
+        }
+    }
